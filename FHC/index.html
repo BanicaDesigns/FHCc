@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/retina.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="superslides.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.classysocial.css" />
+        <link href="menupuncher.css" rel="stylesheet" type="text/css">
+
+        <!--        javascript files-->
+        <script type='text/javascript' src="js/jquery.js"></script>
+        <script type='text/javascript' src="js/jquery.easing.1.3.js"></script>
+        <script type='text/javascript' src="js/application.js"></script>
+        <script type='text/javascript' src="js/hammer.min.js"></script>
+        <script type='text/javascript' src="js/jquery.animate-enhanced.min.js"></script>
+        <script type='text/javascript' src="js/jquery.superslides.js"></script>
+        <script type='text/javascript' src="js/jquery.classysocial.js"></script>
+
+
+	<style type="text/css">@font-face {
+    font-family: 'Kelson Sans';
+    src: url('fonts/Kelson Sans Light BG.otf');
+    src: url('fonts/Kelson Sans Light.otf');
+    src: url('fonts/Kelson Sans Regular.otf');
+}
+</style>
+
+<style type="text/css">
+    h1 {color:black; text-align:center; margin-top:0;}
+    h1 a {text-decoration: none;color:black; text-align:center;}
+    p {color:#666; text-align:center;}
+    body {background: #f4f4f4;}
+    .wrapper {width:100%; margin: 0 auto; padding: 20px;}
+    .container {
+        background: #fff;
+        border-radius: 5px;
+        border: solid 1px #eee;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+        padding:40px;
+        width:700px;
+        margin:60px auto 0px auto;
+    }
+    pre, code {
+        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+        font-size: 12px;
+        color: #333;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    pre { border: 1px solid #CCC; background-color: #EEE; color: #333; padding: 10px; overflow: scroll; }
+    code { padding: 2px 4px; background-color: #F7F7F9; border: 1px solid #E1E1E8; color: #D14; }
+</style>
+
+
+
+
+<script src="menupuncher.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready( function($) {
+        $('#menu').menupuncher({
+            color : '#000',
+            textcolor  : '#FFF',
+            opacity: '0.8',
+            hovercolor: '#FFF'
+        });     
+    });
+
+</script>
+</head>
+<body>
+
+    
+
+
+<ul id="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Works</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+
+
+
+
+<div class="page-wrap">
+
+
+<div id="header">
+	<div class="top">FOOD<br>HYGIENE</div>	
+	<div class="top"><img src="images/logo.png"></div>	
+	<div class="top">CERTIFICATE</div>	
+	<div class="nav-btn"><a href="#" class="pusher">
+  <span></span>
+  <span></span>
+  <span></span>
+</a></div>
+	<hr>
+</div>
+
+<div id="main">
+<p class="text-row1">ONLINE<b> FOOD</b></p>
+<p class="text-row2">HYGIENE & SAFETY</p>
+<p class="text-row3">CERTIFICATES</p>
+<div class="button"><a STYLE="text-decoration:none; color:white;" href="#"><h2>ENTER OUR SITE</h2></a></div>
+
+<div id="socialIcons">
+            <div class="classysocial" data-orientation="line" data-picture="images/social/share_core_square.jpg" data-facebook-handle="picozu" data-socl-handle="marius-stanciu" data-twitter-handle="picozu_editor" data-email-handle="office@picozu.net" data-pinterest-handle="picozu" data-instagram-handle="picozu" data-networks="socl,facebook,twitter,instagram,pinterest,email"></div>         
+            <script>
+                $(document).ready(function () {
+                    $('.classysocial').ClassySocial(function () {
+                        
+                    });
+                });
+            </script>
+            <br />
+        </div>
+
+
+</div>
+
+
+
+<footer class="site-footer">  <h1>  CIEH & APPROVED</h1>.
+</footer>
+<!--
+
+<div id="footer"><h1>CIEH APPROVED & COMPLIANT</h1></div>
+-->
+
+<!-- Backstretch JS -->
+   
+    <script src="js/jquery.backstretch.js"></script>
+    <script>
+        $.backstretch([
+           "images/bg1.jpg",
+          "images/bg2.jpg",
+          "images/bg3.jpg"
+        ], {
+            fade: 800,      //Speed of Fade
+            duration: 4000  //Time of image display
+        });
+    </script>
+</body>
+</html>
